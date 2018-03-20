@@ -1,0 +1,20 @@
+{
+  "name": "graphql-learn",
+  "version": "0.1.1",
+  "description": "Simple Graph QL Server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon graphQLserver/server.js",
+    "json:server": "json-server --watch database/data.json"
+  },
+  "author": "Jassi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.2"
+  }
+}
